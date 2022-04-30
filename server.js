@@ -28,7 +28,7 @@ server.js [options]
             Logs are always written to database.
 --help	Return this message and exit.
 `)
-// If --help or -h, echo help text to STDOUT and exit
+
 if (args.help || args.h) {
     console.log(help)
     process.exit(0)
@@ -71,8 +71,6 @@ app.use( (req, res, next) => {
     throw new Error('Successful: Error.')
   })
 }
-
-// a03 part
 
 app.get("/app/", (req, res, next) => {
     res.json({"message":"Your API works! (200)"});
