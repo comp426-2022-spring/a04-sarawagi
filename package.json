@@ -1,0 +1,33 @@
+{
+  "name": "a04-sarawagi",
+  "version": "1.0.0",
+  "description": "\"databases, logs, errors, and middleware\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sarawagi: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@github.com/comp426-2022-spring/a04-sarawagi.git"
+  },
+  "keywords": [
+    "Databases",
+    "Logs",
+    "errors",
+    "and",
+    "Middlewares"
+  ],
+  "author": "Ram Sarawagi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a04-sarawagi/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a04-sarawagi#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.5.1",
+    "database-js": "^3.0.11",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}
